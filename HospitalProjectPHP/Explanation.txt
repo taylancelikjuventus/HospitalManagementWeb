@@ -1,0 +1,53 @@
+
+////////////////////////Hospital Management Project Summary///////////////////////
+-Login System :
+ *Doctor has to first register himself as a user.
+  Then has to log into system and provide his qualifications and
+  other details.
+ *There are 3 type of users "Receptionist","Pharmacist" and "Doctor" and
+  each of them have their own panels after they logged in successfully.
+
+-Receptionist :  (Use username:'rec_jim' , password : '123')
+   *can Add/Edit/Delete users.Users are just personals of hospital.
+    User can be Doctor,Pharmacist or Receptionist.
+   *can Add/Edit/Delete patients
+   *can create channels.Channels are just appointments that holds doctor details
+    patient details and date of appointment.
+   
+-Doctor : (Use username:'dr_robert' , password : '456')
+   *can Add/Edit/Delete himself
+   *can see his patients via his channel
+   *can prescribe medicine for his patients
+   *If Doctor deletes himself from system that means he is not available for a while
+    so his name will not appear in the list.
+
+-Pharmacist : (Use username:'phar_mike' , password : 'abc')
+    *can see all prescriptions
+    *can sell drugs and print invoice
+    *can add new drugs as well
+
+-Patient : (Patients can register themselves)
+   *Patients can arrange online appointments as well.But they should register
+    first by filling the form provided by link "Online Appointment" in index page.
+   *Patients don't have any separate panel to track their appointments to keep
+    project concise.
+   
+-Technologies used to create this project are given below. 
+ * HTML ,CSS, JS ,Bootstrap,JQuery ,AJAX ,JSON for frontend and PHP for backend.
+   MySQL is used as database program.
+ * Html tables are created via DataTable Api of Bootstrap/JQ which automatically
+   handles sorting/filtering/searching.
+ 
+Note: Make sure that you are connected to internet before running index.php
+      because JQuery and Bootstrap libraries are not stored in project folder.
+
+Note : Because project is for demo purpose I didn't provide any security related files
+       like .htaccess,.htpassword etc... 
+     
+To run Project
+-Download Xammp ,run Apache and MySQL and create Database with the same name given
+ in database folder of this project and import "hospitalproject.db".That's it. 
+/////////////////////////////////////END///////////////////////////////////////
+
+
+
